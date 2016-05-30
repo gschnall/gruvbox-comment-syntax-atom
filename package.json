@@ -1,15 +1,17 @@
 {
-  "name": "gruvbox",
+  "name": "gruvbox-comment",
   "theme": "syntax",
   "version": "1.0.5",
-  "description": "A Gruvbox theme for Atom that aims to be just a little groovier",
+  "description": "A Gruvbox theme for Atom that features easy-to-read comments",
   "keywords": [
     "dark",
     "green",
     "orange",
+    "comments",
+    "gruvbox",
     "syntax"
   ],
-  "repository": "https://github.com/caleb/gruvbox-syntax-atom",
+  "repository": "https://github.com/gschnall/gruvbox-comment-syntax-atom",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
