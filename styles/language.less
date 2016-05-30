@@ -1,8 +1,8 @@
 // Language syntax highlighting
 
 .comment {
-  color: @gruvbox-medium;
-  font-style: italic;
+  color: #292929;
+  background: #a7a8a8;
 
   /* Keywords inside comments (e.g. yard, javadoc, etc) should be more subdued
      than other keywords */
@@ -33,7 +33,7 @@
   }
 
   &.other.special-method {
-    color: @gruvbox-bright-orange;
+    color: @gruvbox-bright-aqua;
   }
 
   &.other.unit {
@@ -168,7 +168,7 @@
   }
 
   &.function  {
-    color: @gruvbox-bright-orange;
+    color: @gruvbox-bright-aqua;
 
     &.any-method {
       color: @gruvbox-bright-green;
@@ -205,6 +205,7 @@
     }
   }
 }
+
 
 .meta {
   &.class {
@@ -292,4 +293,8 @@
   &.raw.inline {
     color: @gruvbox-bright-yellow;
   }
+}
+
+.function {
+  color: @gruvbox-bright-aqua;
 }
