@@ -1,7 +1,7 @@
 {
   "name": "gruvbox-comment",
   "theme": "syntax",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Gruvbox theme for Atom that features easy-to-read comments",
   "keywords": [
     "dark",
